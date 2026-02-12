@@ -1,5 +1,5 @@
-apiVersion: example.com/v1
-kind: Error
+apiVersion: clickhouse.altinity.com/v1
+kind: ClickHouseInstallation
 metadata:
   name: error
   namespace: default
