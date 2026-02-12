@@ -1,12 +1,10 @@
-apiVersion: clickhouse.altinity.com/v1
-kind: ClickHouseInstallation
+apiVersion: example.com/v1
+kind: Error
 metadata:
-  name: error
-  namespace: default
+  name: error1
+  namespace: lmc
   annotations:
-    argocd.argoproj.io/tracking-id: argocd-issue-14098:example.com/Error:default/error
     argocd.argoproj.io/sync-options: ServerSideApply=true
-spec: {}
 status:
   normalizedCompleted:
     spec:
